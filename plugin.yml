@@ -1,0 +1,7 @@
+name: HideExcess
+main: MrDoni98\HideExcess
+api: [3.0.0, 4.0.0]
+version: 1.0
+author: MrDoni98
+##Спасибо Михаилу Кожевникову
+description: "Спрячит от игроков команды на которые у них нет прав"
