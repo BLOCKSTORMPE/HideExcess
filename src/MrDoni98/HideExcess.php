@@ -11,7 +11,8 @@ class HideExcess extends PluginBase implements Listener
 {
     public function onEnable()
     {
-        $this->getServer()->getLogger()->info("HideExcess включён");
+        $this->getServer()->getLogger()->info("HideExcess started");
+        $this->getServer()->getPluginManager()->registerEvents($this, $this);
     }
 
     public function onSendPacket(DataPacketSendEvent $event){
